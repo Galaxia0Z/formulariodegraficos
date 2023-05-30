@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+    background-image: url("vector.jpg");
+    background-size: cover;
+  }
+
+/* Estilos para el formulario */
+form {
+    margin-bottom: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos conteiner del gráfico */
+#chartContainer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos para las filas del gráfico */
+#salesChart {
+    max-width: 100%;
+    height: auto;
+}
